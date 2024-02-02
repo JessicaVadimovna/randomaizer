@@ -1,0 +1,53 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(assets/smoke.png);
+    color: #1d1d1d;
+    margin-top: 20%;
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    color: #141414;
+    margin-bottom: 1rem;
+}
+
+/* Стили для радио-кнопок и меток */
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 45%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Стили для текстового поля и кнопки */
+input[type="text"] {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #451585;
+    margin-left: 42%;
+}
+
+.btn_random {
+    border: 1px solid #451585;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 47%;
+}
+
+.btn_random:hover {
+    background-color: #683eff;
+}
+
+
